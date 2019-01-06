@@ -3,5 +3,5 @@
 # Unpack the /etc backup to ~/backup/etcSyncSync/
 
 cd ~/backup/etc
-sudo tar --xattrs -xzpvf etcBackup.tar.xz etcSyncSync
+sudo tar --xattrs -C etcSync -xzpvf etcBackup.tar.xz
 cd $OLDPWD
